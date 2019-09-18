@@ -36,15 +36,15 @@
                     <ul class="navbar-nav mr-auto">
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="#" style="color:#f7fff7;">Home<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/PizzaSystem/Administration" style="color:#f7fff7;">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#f7fff7;">New Client</a>
+                            <a class="nav-link" href="clientregisterpage.php" style="color:#f7fff7;">New Client</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#f7fff7;">New Pizza</a>
+                            <a class="nav-link" href="pizzaregisterpage.php" style="color:#f7fff7;">New Pizza</a>
                         </li>
 
                         <li class="nav-item">
