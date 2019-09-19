@@ -41,6 +41,7 @@ PizzaSystem
 ```
 
 <p>Next, in every file of registration like: <b>clientregister.php</b> or <b>pizzaregister.php</b> and some other pages like <b>index.php</b> it will be a line like this:</p>
+
 ```
 include("../connect.php");
 ```
