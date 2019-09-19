@@ -29,7 +29,7 @@ $connection = mysqli_connect($host, $user,$password, $database, $port) or die(my
 ?>
 ```
 
-<p>Observation: To avoid erros i recommend always keep the file struct like:</p>
+<p>Observation: To avoid erros i recommend always keep the folder struct like:</p>
 
 ```
 PizzaSystem
