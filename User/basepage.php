@@ -36,15 +36,11 @@
                     <ul class="navbar-nav mr-auto">
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="#" style="color:#f7fff7;">Home<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/PizzaSystem/User" style="color:#f7fff7;">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#f7fff7;">Menu</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#f7fff7;">Make a Request</a>
+                            <a class="nav-link" href="requestpage.php" style="color:#f7fff7;">Make a Request</a>
                         </li>
 
                     </ul>
