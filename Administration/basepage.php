@@ -48,7 +48,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#e7ecef;">Requests</a>
+                            <a class="nav-link" href="requestpage.php" style="color:#e7ecef;">Requests</a>
                         </li>
 
                     </ul>
