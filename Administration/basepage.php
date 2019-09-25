@@ -51,6 +51,14 @@
                             <a class="nav-link" href="requestpage.php" style="color:#e7ecef;">Requests</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="pizzadeletepage.php" style="color:#e7ecef;">Delete Pizza</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="clientdeletepage.php" style="color:#e7ecef;">Delete Client</a>
+                        </li>
+
                     </ul>
 
                 </div>
