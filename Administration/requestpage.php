@@ -22,13 +22,21 @@
                 while($fetch = mysqli_fetch_array($result)){
                     echo "<div class='row'>
                             <div class='col-sm-12 col-md-12 col-lg-12'>
-                                <h1 style='float:right'>" . $fetch["pizza"] . "</h1>
+                                <form method='POST' action='requestdelete.php'>
+                                    <input type='hidden' name='id' value=" . $fetch["id"] . ">
+                                    <button type='submit' style='color:red;float:right;'>
+                                        <h1>X<h1>
+                                    </button>
+                                </form>
+                                <h1 style='float:left'>" . $fetch["pizza"] . " - </h1>
                                 <h1>" . $fetch["address"] . "</h1>
                                 <small>NOTE: " . $fetch["notes"] . "</small>
+
                             </div>
                         </div>";
 
                     echo "<hr class='my-4'>";
+
 
                 }
                 ?>
