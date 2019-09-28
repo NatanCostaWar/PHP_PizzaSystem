@@ -9,8 +9,9 @@ program give a look in <b>Config files</b> the topic bellow. If you´re using US
 - Copy the **Administration** and **User** folder as well as the **connect.php** file
 - Inside _USBWebserver\root_ create a new folder named "PizzaSystem"
 - Inside this new folder (PizzaSystem) paste the file and the two folders
-- Go back to the git clone folder and copy the **db_pizzasystem** folder
-- Inside _USBWebserver v8.6\mysql\data_ paste it
+- Go back to the git clone folder and copy the **db_pizzasystem.sql** file
+- Paste it in _USBWebserver_ folder or anywhere you like 
+- Inside your sql admin page _(my case: localhost:8080/phpmyadmin)_ go to import and execute the **db_pizzasystem.sql** file
 
 ## Config files:
 <p>To manually config the project if you´re not using USBWebserver or if you want to change some server
