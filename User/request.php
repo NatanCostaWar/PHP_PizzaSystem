@@ -10,11 +10,12 @@ $address = mysqli_real_escape_string($connection, $_POST["address"]);
 $notes = mysqli_real_escape_string($connection, $_POST["notes"]);
 $pizza = mysqli_real_escape_string($connection, $_POST["pizza"]);
 $pizza = (int)($pizza);
+$user = mysqli_real_escape_string($connection, $_POST["user"]);
 
 echo $address;
 echo $notes;
 
-$query = "INSERT INTO db_pizzasystem.request (id, address, notes, pizza) VALUES (NULL, '{$address}', '{$notes}', '{$pizza}')";
+$query = "INSERT INTO db_pizzasystem.request (id, address, notes, pizza, user) VALUES (NULL, '{$address}', '{$notes}', '{$pizza}', '{$user}')";
 $result = mysqli_query($connection, $query);
 
 echo $result;

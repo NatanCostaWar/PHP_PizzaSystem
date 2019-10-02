@@ -31,6 +31,7 @@
                                 <h1 style='float:left'>" . $fetch["pizza"] . " - </h1>
                                 <h1>" . $fetch["address"] . "</h1>
                                 <small>NOTE: " . $fetch["notes"] . "</small>
+                                <p>User: " . $fetch["user"] . "</p>
 
                             </div>
                         </div>";

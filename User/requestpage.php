@@ -1,3 +1,6 @@
+<?php
+include('login_veryfy.php')
+?>
 <!DOCTYPE html>
 <html>
     <?php include("basepage.php"); ?>
@@ -40,7 +43,7 @@
 
                         
                             
-
+                        <input type="hidden" name="user" value=<?php echo $_SESSION['username'] ?>>
                         
                         <center>
                             <button class="btn border" type="submit" style="color:#f4f7f5;margin-top:20px;">

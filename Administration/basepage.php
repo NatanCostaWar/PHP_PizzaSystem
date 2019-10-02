@@ -59,6 +59,14 @@
                             <a class="nav-link" href="clientdeletepage.php" style="color:#e7ecef;">Delete Client</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="pizzaeditpage.php" style="color:#e7ecef;">Edit Pizza</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="clienteditpage.php" style="color:#e7ecef;">Edit Client</a>
+                        </li>
+
                     </ul>
 
                 </div>

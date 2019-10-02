@@ -9,7 +9,7 @@
 
                     <form action="clientdelete.php" method="post">
                         <center>
-                            <h2>Select Pizza:</h2>
+                            <h2>Select Client:</h2>
                             <?php
                                 include("../connect.php");
                                 $query = "SELECT * FROM db_pizzasystem.client";

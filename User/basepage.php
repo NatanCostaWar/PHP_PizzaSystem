@@ -39,9 +39,43 @@
                             <a class="nav-link" href="/PizzaSystem/User" style="color:#f7fff7;">Home<span class="sr-only">(current)</span></a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="requestpage.php" style="color:#f7fff7;">Make a Request</a>
-                        </li>
+                        <?php
+                        if (session_status() == PHP_SESSION_NONE) {
+                            session_start();
+                            
+                        }if (isset($_SESSION['username'])) {
+                            if(!$_SESSION['username']){
+                            echo '<li class="nav-item">
+                                <a class="nav-link" href="loginpage.php" style="color:#e7ecef;">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="registerpage.php" style="color:#e7ecef;">Register</a>
+                            </li>';
+                            }else{
+                                echo '<li class="nav-item">
+                                    <a class="nav-link" href="userpage.php" style="color:#e7ecef;">User Page</a>
+                                </li>';
+                                echo '<li class="nav-item">
+                                    <a class="nav-link" href="requestpage.php" style="color:#f7fff7;">Make a Request</a>
+                                </li>';
+                                
+                            }
+                        }else{
+                            echo '<li class="nav-item">
+                                <a class="nav-link" href="loginpage.php" style="color:#e7ecef;">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="registerpage.php" style="color:#e7ecef;">Register</a>
+                            </li>';
+                        }
+                        
+                        ?>
+
+                        
+
+                        
 
                     </ul>
 
