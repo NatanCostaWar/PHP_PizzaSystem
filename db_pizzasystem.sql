@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Máquina: localhost
--- Data de Criação: 02-Out-2019 às 18:14
+-- Data de Criação: 02-Out-2019 às 18:45
 -- Versão do servidor: 5.6.13
 -- versão do PHP: 5.4.17
 
@@ -105,15 +105,9 @@ CREATE TABLE IF NOT EXISTS `user` (
   `name` varchar(100) NOT NULL,
   `password` varchar(128) NOT NULL,
   `hierarchy` varchar(100) NOT NULL DEFAULT 'member',
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
-
---
--- Extraindo dados da tabela `user`
---
-
-INSERT INTO `user` (`id`, `name`, `password`, `hierarchy`) VALUES
-(1, 'natan', '23f3497ba155404adc50b786dc6ae445', 'member');
 
 --
 -- Constraints for dumped tables
